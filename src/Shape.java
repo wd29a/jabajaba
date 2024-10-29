@@ -12,7 +12,7 @@ class Circle implements Shape {
     public Circle(double radius) {
         this.radius = radius;
         perimeter = 2 * Math.PI * radius;
-        area = radius * radius;
+        area = Math.PI * radius * radius;
     }
 
     @Override
